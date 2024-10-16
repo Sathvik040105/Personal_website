@@ -3,13 +3,13 @@ import streamlit.components.v1 as components
 from const import *
 
 # Page Config ----------------------------------------------------------------
-st.set_page_config(page_title="Portfolio", page_icon="🎨", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Projects", page_icon="🎨", layout="wide", initial_sidebar_state="collapsed")
 margin_r, body, margin_l = st.columns([0.4, 3, 0.4])
 
 with body:
     menu()
 
-    st.header("🎨 Portfolio", divider='rainbow')
+    st.header("🎨 Projects", divider='rainbow')
 
     # Page Functions ----------------------------------------------------------------
     def Portfolio_component(header, content):
@@ -24,11 +24,11 @@ with body:
 
     # Display images in the respective columns
     with col1:
-        st.image("/home/vikku/Desktop/AIDS/personel_website/src/1722592429814.jpeg", width=380)
+        st.image("1722592429814.jpeg", width=380)
     with col2:
-        st.image("/home/vikku/Desktop/AIDS/personel_website/src/1722592748119.jpeg", width=410)
+        st.image("1722592748119.jpeg", width=410)
     with col3:
-        st.image("/home/vikku/Desktop/AIDS/personel_website/src/1722592715149.jpeg", width=380)
+        st.image("1722592715149.jpeg", width=380)
 
     components.iframe("https://iisc303.autodesk360.com/g/shares/SH512d4QTec90decfa6e7bc7a87ed5449f67", width=1000, height=800)
 
