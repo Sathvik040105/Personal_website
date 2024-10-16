@@ -39,7 +39,7 @@ with body:
         # st.markdown(f"###### 🐱 GitHub: {github_link}")
         # st.markdown(f"###### 📧 Email: {email}")
         
-        with open("/home/vikku/Desktop/Sathvik_Manthri_Resume.pdf", "rb") as file:
+        with open("Sathvik_Manthri_Resume.pd", "rb") as file:
             pdf_file = file.read()
 
         st.download_button(
