@@ -30,7 +30,7 @@ with body:
     with col3:
         st.image("1722592715149.jpeg", width=380, use_column_width=True)
     
-    components.iframe("https://iisc303.autodesk360.com/g/shares/SH512d4QTec90decfa6e7bc7a87ed5449f67", width=1000, height=800, use_column_width=True)
+    components.iframe("https://iisc303.autodesk360.com/g/shares/SH512d4QTec90decfa6e7bc7a87ed5449f67", width=1000, height=800)
 
     # Home Service Robot ----------------------------------------------------------------
     Portfolio_component(Portfolio[2][0], Portfolio[2][1])
