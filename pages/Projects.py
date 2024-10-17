@@ -20,16 +20,23 @@ with body:
     # Interplanetary Rover Development ----------------------------------------------------------------
     Portfolio_component(Portfolio[1][0], Portfolio[1][1])
     # Create two columns
-    col1, col2, col3 = st.columns(3)
+    #col1, col2, col3 = st.columns(3)
 
     # Display images in the respective columns
+    #with col1:
+        #st.image("1722592429814.jpeg", width=380)
+    #with col2:
+        #st.image("1722592748119.jpeg", width=410)
+    #with col3:
+        #st.image("1722592715149.jpeg", width=380)
+    col1, col2, col3 = st.columns([1, 1, 1])
     with col1:
-        st.image("1722592429814.jpeg", width=380)
+        st.image("1722592429814.jpeg", width=100%)  # Adjust width percentage as needed
     with col2:
-        st.image("1722592748119.jpeg", width=410)
+        st.image("1722592748119.jpeg", width=100%)  # Adjust width percentage as needed
     with col3:
-        st.image("1722592715149.jpeg", width=380)
-        
+        st.image("1722592715149.jpeg", width=100%)  # Adjust width percentage as needed   
+    
     components.iframe("https://iisc303.autodesk360.com/g/shares/SH512d4QTec90decfa6e7bc7a87ed5449f67", width=1000, height=800)
 
     # Home Service Robot ----------------------------------------------------------------
