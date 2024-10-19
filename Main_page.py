@@ -50,13 +50,7 @@ with body:
 
     with col3:
         st.image("me.jpg", width=360)
-    components.html(
-    """
-    <iframe src="https://macaulaylibrary.org/asset/625141000/embed" 
-    height="552" width="640" frameborder="0" allowfullscreen></iframe>
-    """,
-    height=552,
-    )
+        
     # skills --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     st.subheader("My :blue[skills] ⚒️",divider='rainbow') #,divider='rainbow'
 
