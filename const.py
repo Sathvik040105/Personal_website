@@ -31,7 +31,7 @@ info = {
     'name': 'Sathvik Manthri', 
     'study': 'Indian Institute of Science (IISc)',
     'location': 'Bangalore, India',
-    'interest': 'AI, Robotics, Machine Learning, Autonomous Systems',
+    'interest': 'Deep Learning, Computer Vision, NLP, AI, Data Science, Robotics',
     'skills': [
         'Python', 'C', 'C++', 'TensorFlow', 'PyTorch', 'Fusion 360', 'Keras', 
         'Gazebo', 'ROS', 'HTML & CSS', 'MATLAB', 'PySpark',
