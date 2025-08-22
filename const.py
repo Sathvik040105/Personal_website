@@ -25,7 +25,7 @@ github_logo = '''
 info = {
     'brief': """    
         I am an AI & Robotics enthusiast currently pursuing a B-Tech in Mathematics and Computing at the Indian Institute of Science (IISc).
-        My experience spans designing autonomous rovers, working with audio datasets for machine learning models, and developing a home service robot to assist elderly individuals.
+        My experience includes building Agentic & RAG based applications, designing autonomous rovers, working with audio datasets for machine learning models, etc.
         **I am passionate about applying machine learning and robotics to solve real-world challenges**.
     """,
     'name': 'Sathvik Manthri', 
@@ -33,14 +33,24 @@ info = {
     'location': 'Bangalore, India',
     'interest': 'Deep Learning, Computer Vision, NLP, AI, Data Science, Robotics',
     'skills': [
-        'Python', 'C', 'C++', 'TensorFlow', 'PyTorch', 'Fusion 360', 'Keras', 
+        'Python', 'C', 'C++', 'Langchain', 'LangGraph', 'Docker', 'FastAPI', 'TensorFlow', 'PyTorch', 'Fusion 360', 'Keras', 
         'Gazebo', 'ROS', 'HTML & CSS', 'MATLAB', 'PySpark',
-        'Scipy', 'Pandas', 'Numpy', 'LaTeX', 'Streamlit'
+        'Scipy', 'Pandas', 'Numpy', 'LaTeX'
     ]
 }
 
 # Experience
 Experience = [
+    [":violet[ThoughtSpot] | Engineering Intern", "AI-Driven Liveboard Agent & Testing Infrastructure", 
+     "May 2025 – July 2025", "Bengaluru, India", 
+     """
+     - Developed AI-Driven Liveboard Agent using LangGraph to automate visualization grouping and layout based on narrative context (Who, Why, What).
+     - Implemented Dynamic Tab Handling enabling selective beautification and auto-generation of tabs, improving dashboard usability and interpretability.
+     - Built Screenshot-Based Regression Pipeline that used pixel-level comparison to catch UI regressions, successfully identifying issues in background rendering.
+     - Added feature-rich Liveboards to the metadata, eliminating the need for manual setup during E2E testing and accelerating test case creation.
+     """, 
+     "Company website", "https://www.thoughtspot.com/"],
+
     [":green[IIT Indore] | Research Intern", "Audio classification using Hierarchical Multi Task Learning", 
      "June 2024 – Present", "Indore, India", 
      """
@@ -63,33 +73,15 @@ Experience = [
      - Designed a prototype for a robot aimed at assisting the elderly with timely medication intake.
      - Focused on creating an intuitive storage and dispensing system for the medication.
      """, 
-     "Company website", "https://www.coboticca.com/"],
-
-    [":red[IISc Robotics Club - Team Vicharaka] | Mechanical Team Lead", "Interplanetary Rover Development", 
-     "August 2023 – March 2024", "Bangalore, India", 
-     """
-     - Led the mechanical design of a rover with a 100kg payload for autonomous navigation and soil collection.
-     - Built and simulated the rover in Gazebo and Fusion 360.
-     """, 
-     "Team website", "https://vicharaka.iisc.ac.in/"
-     # add a screenshot of the rover
-
-     ],
-
-    [":violet[SaiMan] | Co-Developer", "Encrypted Communication Tool",
-     "June 2023", "Bangalore, India", 
-     """
-     - Developed an encrypted communication tool that encrypts text messages and images using pixelated canvases.
-     """, 
-     "Project Link", "https://sathvik040105.github.io/crypto-SaiMan/"]
+     "Company website", "https://www.coboticca.com/"]
 ]
 
 # Portfolio Projects
 Portfolio = {
     1: [':blue[Interplanetary Rover Development]',
         """
-        Led the design and development of a 100kg payload autonomous rover with a robotic arm, 
-        focusing on soil sample collection and life detection.
+        Led the design and development of a 100kg payload autonomous rover with a robotic arm for autonomous navigation and soil collection.
+        Built and simulated the rover in Gazebo and Fusion 360 as part of IISc Robotics Club - Team Vicharaka.
         """],
     2: [':orange[Home Service Robot] - Elderly Assistance',
         """
@@ -98,12 +90,28 @@ Portfolio = {
         """],
     3: [':green[SaiMan] - Encrypted Messaging',
         """
-        Developed a text and image encryption tool using pixelated canvases to secure messages. 
+        Developed an encrypted communication tool that encrypts text messages and images using pixelated canvases.
         Built with a focus on privacy and data security.
         """],
     4: [':red[Term Paper/Course Project] - State Space Models',
         """
         Wrote a report and gave a 15 min presentation on State Space Models & HiPPO framework
+        """],
+    5: [':violet[Bird Scouts] - AI-Powered Bird Classification',
+        """
+        Built a Streamlit web app that classifies over 50 bird species through separate image and audio pipelines. 
+        Features EfficientNetV2-S and YOLO for feature extraction, community map for bird sightings, and RAG-powered AI chatbot.
+        Achieved ROC_AUC score of 0.996.
+        """],
+    6: [':blue[Community Detection in Financial Networks]',
+        """
+        Implemented a Stochastic Block Model framework to analyze community structures within global trade 
+        networks spanning 200+ countries and correlations in the Indian equity market.
+        """],
+    7: [':orange[Undecidability of Validity in First Order Logic]',
+        """
+        Course project exploring the theoretical foundations of computability theory, specifically focusing 
+        on the undecidability of validity in First Order Logic with comprehensive analysis and formal proofs.
         """]
 }
 
