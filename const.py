@@ -7,7 +7,6 @@ def menu():
     bar1.page_link("Main_page.py", label="Introduction", icon="🏠")
     bar2.page_link("pages/Experience.py", label= "Experience", icon="📚")
     bar3.page_link("pages/Projects.py", label="Projects", icon="🎨")
-    bar4.page_link("pages/Contact.py", label="Contacts", icon="🌏")
     st.write("")
 
 #publication_url --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -24,13 +23,13 @@ github_logo = '''
 # personal info (for main page) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 info = {
     'brief': """    
-        I am an AI & Robotics enthusiast currently pursuing a B-Tech in Mathematics and Computing at the Indian Institute of Science (IISc).
-        My experience includes building Agentic & RAG based applications, designing autonomous rovers, working with audio datasets for machine learning models, etc.
+        I am an AI-ML & Robotics enthusiast currently pursuing a B-Tech in Mathematics and Computing at the Indian Institute of Science (IISc).
+        My experience includes building Agentic & RAG based applications, working with deep learning models especially in Audio ML & Computer Vision, designing CAD models for robotics applications, etc.
         **I am passionate about applying machine learning and robotics to solve real-world challenges**.
     """,
     'name': 'Sathvik Manthri', 
     'study': 'Indian Institute of Science (IISc)',
-    'location': 'Bangalore, India',
+    'location': 'Bengaluru, India',
     'interest': 'Deep Learning, Computer Vision, NLP, AI, Data Science, Robotics',
     'skills': [
         'Python', 'C', 'C++', 'Langchain', 'LangGraph', 'Docker', 'FastAPI', 'TensorFlow', 'PyTorch', 'Fusion 360', 'Keras', 
@@ -41,6 +40,11 @@ info = {
 
 # Experience
 Experience = [
+    [":yellow[LEAP Lab, IISc Bengaluru] | Research Intern", "Auditory Attention Decoding & Target Speech Extraction", 
+     "Dec 2025 – Present", "Bengaluru, India",
+     "",
+     "Professor's webpage", "https://eecs.iisc.ac.in/people/sriram-ganapathy/"],
+
     [":violet[ThoughtSpot] | Engineering Intern", "AI-Driven Liveboard Agent & Testing Infrastructure", 
      "May 2025 – July 2025", "Bengaluru, India", 
      """
@@ -51,13 +55,13 @@ Experience = [
      """, 
      "Company website", "https://www.thoughtspot.com/"],
 
-    [":green[IIT Indore] | Research Intern", "Audio classification using Hierarchical Multi Task Learning", 
+    [":green[AI Lab, IIT Indore] | Research Intern", "Audio classification using Multi Task Learning Frameworks", 
      "June 2024 – Present", "Indore, India", 
      """
-     - Working with hierarchical multi-task learning models for audio classification
-     - Applying advanced deep learning techniques to predict patterns from audio signals.
+     - Co-authoring a dataset paper on gun-sound classification for gun-type and broad direction prediction.
+     - Explored Hierarchical Multi-Task Learning frameworks for audio classification .
      """, 
-     "Institution website", "https://chandreshiit.github.io/"],
+     "Professor's webpage", "https://chandreshiit.github.io/"],
 
     [":orange[IIT Indore] | Research Intern", "Deep Learning for Genetic Studies", 
      "May 2024 – Aug 2024", "Indore, India", 
@@ -112,7 +116,19 @@ Portfolio = {
         """
         Course project exploring the theoretical foundations of computability theory, specifically focusing 
         on the undecidability of validity in First Order Logic with comprehensive analysis and formal proofs.
-        """]
+        """
+    ],
+    8: [':green[Krishi Mitra]',
+        """
+        Built a multilingual, AI-powered conversational agent that bridges information gaps for Indian farmers. \\
+        It delivers real-time crop prices, aggregated government scheme guidance, localized weather insights, and image-based crop disease diagnostics through a single web chat interface. \\
+        """
+    ],
+    9: [':blue[TachyView]',
+        """
+        It is a web-based visualization tool that combines topological spines, and volume rendering to enable intuitive, interactive exploration of scalar fields directly in a browser. \\
+        """
+    ]
 }
 
 # Contact Information
