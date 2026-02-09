@@ -56,10 +56,10 @@ Experience = [
      "Company website", "https://www.thoughtspot.com/"],
 
     [":green[AI Lab, IIT Indore] | Research Intern", "Audio classification using Multi Task Learning Frameworks", 
-     "June 2024 – Present", "Indore, India", 
+     "June 2024 – December 2025", "Indore, India", 
      """
-     - Co-authoring a dataset paper on gun-sound classification for gun-type and broad direction prediction.
-     - Explored Hierarchical Multi-Task Learning frameworks for audio classification .
+     - Explored Hierarchical Multi-Task Learning frameworks for audio classification.
+     - Co-authored a dataset paper on gun-sound classification for gun-type and broad direction prediction, currently under review at Springer Multimedia Tools and Applications.
      """, 
      "Professor's webpage", "https://chandreshiit.github.io/"],
 
