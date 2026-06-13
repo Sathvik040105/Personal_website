@@ -40,7 +40,7 @@ info = {
 
 # Experience
 Experience = [
-    [":yellow[LEAP Lab, IISc Bengaluru] | Research Intern", "Auditory Attention Decoding & Target Speech Extraction", 
+    [":yellow[LEAP Lab, IISc Bengaluru] | Research Intern", "Working on EEG-Guided Target Speech Extraction using Conditional Diffusion Models", 
      "Dec 2025 – Present", "Bengaluru, India",
      "",
      "Professor's webpage", "https://eecs.iisc.ac.in/people/sriram-ganapathy/"],
@@ -59,7 +59,7 @@ Experience = [
      "June 2024 – December 2025", "Indore, India", 
      """
      - Explored Hierarchical Multi-Task Learning frameworks for audio classification.
-     - Co-authored a dataset paper on gun-sound classification for gun-type and broad direction prediction, currently under review at Springer Multimedia Tools and Applications.
+     - Co-authored a dataset paper on gun-sound classification for gun-type and broad direction prediction, currently under review at Springer Signal, Image and Video Processing.
      """, 
      "Professor's webpage", "https://chandreshiit.github.io/"],
 
