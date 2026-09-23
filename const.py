@@ -23,9 +23,9 @@ github_logo = '''
 # personal info (for main page) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 info = {
     'brief': """    
-        I am an AI-ML & Robotics enthusiast currently pursuing a B-Tech in Mathematics and Computing at the Indian Institute of Science (IISc).
+        I am an AI-ML enthusiast currently pursuing a 5 year B.Tech + M.Tech Dual degree in Mathematics and Computing at the Indian Institute of Science (IISc).
         My experience includes building Agentic & RAG based applications, working with deep learning models especially in Audio ML & Computer Vision, designing CAD models for robotics applications, etc.
-        **I am passionate about applying machine learning and robotics to solve real-world challenges**.
+        I am passionate about applying machine learning to solve real-world challenges.
     """,
     'name': 'Sathvik Manthri', 
     'study': 'Indian Institute of Science (IISc)',
